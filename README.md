@@ -31,13 +31,13 @@ All require the http header of Content-Type = application/json
 
 ## Rest URLs for Different Actions
 
-| HTTP Type | URL                                  | Description                   |
-| --------- | -------------                        | ---------                     |
-| GET       | http://localhost:8080/employee       | get all employees             |
-| GET       | http://localhost:8080/employee?id=5  | get employee with id of 5     |
-| POST      | http://localhost:8080/createEmployee | Create new employee           | 
-| PUT       | http://localhost:8080/employee       | Update employee               |
-| DELETE    | http://localhost:8080/employee?id=8  | Delete employee with if of 8  |
+| HTTP Type | URL                                  | Description                      |
+| --------- | -------------                        | ---------                        |
+| GET       | http://localhost:8080/employee       | get all employees                |
+| GET       | http://localhost:8080/employee?id=5  | get employee with an id of 5     |
+| POST      | http://localhost:8080/createEmployee | Create new employee              | 
+| PUT       | http://localhost:8080/employee       | Update employee                  |
+| DELETE    | http://localhost:8080/employee?id=8  | Delete employee with an id of 8  |
 
 ## Sample Request for POST and PUT
 
